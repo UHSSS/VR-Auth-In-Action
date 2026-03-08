@@ -43,7 +43,7 @@ CONFIG = dict(
     ],
 
     hand_side="right",
-    exclude_flags={"idle", "pretask", "posttask", "", "nan", "None", "none"},
+    exclude_flags={"idle", "", "nan", "None", "none"},
 
     use_full_segment=True,   # if False, falls back to fixed-window cropping (window/offset/crops)
     window=60,               # only used when use_full_segment=False
